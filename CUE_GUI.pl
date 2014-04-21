@@ -43,22 +43,19 @@ $choice = 1; # default selection
 
 sub runFileConverter {
 
-if ($choice == 1)
-{
-	system("python CueMaker.py");
-	sleep(4);
-	system("perl CueSplitter.pl");
-}
-
-elsif ($choice == 2)
-{
-	system("python CueMaker.py");
-}
-
-elsif ($choice == 3)
-{
-	system("perl CueSplitter.pl");
-}
+	if ($choice == 1){
+		system("python CueMaker.py");
+		sleep(4);
+		system("perl CueSplitter.pl");
+	}
+	
+	elsif ($choice == 2){
+		system("python CueMaker.py");
+	}
+	
+	elsif ($choice == 3){
+		system("perl CueSplitter.pl");
+	}
 
 }
 
