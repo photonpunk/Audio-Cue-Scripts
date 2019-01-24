@@ -1,7 +1,7 @@
 Audio-Cue-Scripts
 =================
 
-These are a series of scripts for splitting master .wav files into sub-item mp3 tracks using Cue Sheets.  
+These are a series of scripts for splitting master .wav files into sub-item mp3 tracks using Cue Sheets. This is a huge time-saver for Digitization Libraries.
 
 Cue_Maker creates a .cue file (technical metadata for audio files that contains track times).
 
